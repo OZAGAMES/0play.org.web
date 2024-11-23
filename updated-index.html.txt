@@ -1,0 +1,33 @@
+<div>
+# Welcome to play.0play.org
+
+Your ultimate Minecraft multiplayer experience!
+
+<button onclick="navigateToPage('index')">Home</button>
+<button onclick="navigateToPage('vote')">Vote for Us</button>
+<button onclick="navigateToPage('staff')">Staff Portal</button>
+</div>
+
+:::::: {role="main"}
+::: {#about-section .section}
+## About Our Server
+
+play.0play.org is a Minecraft server designed for players of all skill levels. 
+Join us to explore custom maps, exciting minigames, and a friendly community.
+:::
+
+::: {#status-section .section}
+## Server Status
+<div id="server-status">Checking server status...</div>
+:::
+
+::: {#join-section .section}
+## How to Join
+
+1. Open Minecraft and go to the multiplayer menu.
+2. Click "Add Server" and enter **play.0play.org** as the server address.
+3. Click "Join Server" and start playing!
+:::
+::::::
+
+© 2024 Ozaoxa or OmoliCon. All rights reserved.

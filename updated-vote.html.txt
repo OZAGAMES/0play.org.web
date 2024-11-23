@@ -1,0 +1,24 @@
+<div>
+# Vote for play.0play.org
+
+Your support helps us grow the community!
+
+<button onclick="navigateToPage('index')">Home</button>
+<button onclick="navigateToPage('vote')">Vote for Us</button>
+<button onclick="navigateToPage('staff')">Staff Portal</button>
+</div>
+
+:::: {role="main"}
+::: {#vote-section .section}
+## Cast Your Vote
+
+<form onsubmit="submitVote(event)">
+    <label for="username">Minecraft Username:</label>
+    <input type="text" id="username" required>
+    <button type="submit">Vote</button>
+</form>
+<div id="vote-message"></div>
+:::
+::::
+
+© 2024 Ozaoxa or OmoliCon. All rights reserved.

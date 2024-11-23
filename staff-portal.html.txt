@@ -1,0 +1,39 @@
+<div>
+# Staff Portal - play.0play.org
+
+Welcome to the Staff Control Panel
+
+Back to Home
+</div>
+
+:::: {role="main"}
+::: {#staff-login .section}
+## Staff Login
+
+Username:
+Password:
+
+Login
+:::
+
+::: {#staff-controls .section hidden}
+## Staff Controls
+
+### Server Management
+- Start/Stop Server
+- Reload Configuration
+- Clear Chat
+
+### Player Management
+- Ban Player
+- Kick Player
+- Mute Player
+
+### Statistics
+- Online Players: <span id="online-players">0</span>
+- Total Registered: <span id="total-players">0</span>
+- Active Reports: <span id="active-reports">0</span>
+:::
+::::
+
+© 2024 Ozaoxa or OmoliCon. All rights reserved.
